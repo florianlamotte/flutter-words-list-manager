@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter Words List Manager",
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Words List Manager")
-        ),
         body: Center(
           child: RandomWords(),
         ),
