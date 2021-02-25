@@ -9,6 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Flutter Words List Manager",
+      theme: ThemeData(
+        primaryColor: Colors.white
+      ),
       home: Scaffold(
         body: Center(
           child: RandomWords(),
